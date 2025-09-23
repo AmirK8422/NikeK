@@ -1,0 +1,115 @@
+.kol {
+  display: grid;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  box-sizing: border-box;
+  align-self: start;
+  justify-self: center;
+  gap: 25px;
+}
+
+.kol img {
+  height: 300px;
+}
+.kol img:hover {
+  transform: scale(1.1);
+  overflow: hidden;
+}
+.kafsh1,
+.kafsh2,
+.kafsh3,
+.kafsh4,
+.kafsh5,
+.kafsh6 {
+  box-shadow: 0px 0px 5px 5px #66ffff;
+  transition: transform 0.3s ease;
+  border: solid 1px #00aaff;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.kafsh1:hover,
+.kafsh2:hover,
+.kafsh3:hover,
+.kafsh4:hover,
+.kafsh5:hover,
+.kafsh6:hover {
+  border: none;
+  box-shadow: 0 8px 16px 0 #66ffff;
+  transform: translateY(-10px);
+}
+.container1,
+.container2,
+.container3,
+.container4,
+.container5,
+.container6 {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: #66ffff;
+  padding: 2px 16px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 5px;
+}
+
+.container1 a,
+.container2 a,
+.container3 a,
+.container4 a,
+.container5 a,
+.container6 a {
+  all: unset;
+  color: #17d1d1c2;
+  padding: 5px;
+}
+
+.container1 a:hover,
+.container2 a:hover,
+.container3 a:hover,
+.container4 a:hover,
+.container5 a:hover,
+.container6 a:hover {
+  color: aquamarine;
+}
+
+/* h1 {
+  color: #ca907e;
+  background-color: #32373b;
+}
+
+h4 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: large;
+  color: #ca907e;
+  background-color: #32373b;
+}
+h4:hover {
+  font-size: larger;
+}
+p {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #a3c3d9;
+  background-color: #32373b;
+}
+a {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-decoration: none;
+  padding-bottom: 5px;
+  color: #ca907e;
+  background-color: #32373b;
+}
+a:visited {
+  color: #00611a;
+}
+a:hover {
+  color: #04a777;
+  font-size: larger;
+}
+ */

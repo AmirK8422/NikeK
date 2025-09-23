@@ -1,0 +1,19 @@
+.faq-section {
+  background: #0f0f0f;
+  border: 1px solid #00aaff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.faq-section h2 {
+  color: #00aaff;
+}
+
+.faq-item summary {
+  cursor: pointer;
+  color: #00d9ff;
+}
+
+.faq-item p {
+  color: #e0e0e0;
+}
