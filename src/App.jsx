@@ -9,13 +9,12 @@ import Login from "./Login";
 import ProductDetails from "./shopping/ProductDetails";
 import ShoppingCart from "./shopping/ShoppingCart";
 import { CartProvider } from "./shopping/CartContext";
-import Popup from "./Popup";
+
 import Shaparak from "../src/Shaparak";
 
 function App() {
   return (
     <>
-      <Popup />
       <CartProvider>
         <BrowserRouter>
           <Navbar />
